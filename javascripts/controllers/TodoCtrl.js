@@ -30,4 +30,10 @@ app.controller("TodoCtrl", function($scope, ItemFactory) {
       $scope.showListView = true;
     })
   }
+
+  $scope.deleteItem = function(itemID) {
+    ItemFactory.deleteItem(itemID).then(function(response) {
+      getItems();
+    })
+  }
 })
