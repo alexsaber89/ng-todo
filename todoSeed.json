@@ -3,17 +3,30 @@
     "item0": {
       "task": "mow the lawn",
       "isCompleted": true,
-      "assignedTo": "Zoe"
+      "assignedTo": "Zoe",
+      "uid": "ev9HG0vhAgPgFINkYD3v8L6Bc8g2"
     },
     "item1": {
       "task": "grade quizzes",
       "isCompleted": false,
-      "assignedTo": "William"
+      "assignedTo": "William",
+      "uid": "ev9HG0vhAgPgFINkYD3v8L6Bc8g2"
     },
     "item2": {
       "task": "take nap",
       "isCompleted": false,
-      "assignedTo": "Zoe"
+      "assignedTo": "Zoe",
+      "uid": "Isi5QlQGjbgOCa6g5udgShPs00F2"
+    }
+  },
+  "users": {
+    "user0": {
+      "uid": "ev9HG0vhAgPgFINkYD3v8L6Bc8g2",
+      "username": "a"
+    },
+    "user1": {
+      "uid": "Isi5QlQGjbgOCa6g5udgShPs00F2",
+      "username": "b"
     }
   }
 }
